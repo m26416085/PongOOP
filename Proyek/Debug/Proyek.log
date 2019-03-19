@@ -1,0 +1,49 @@
+﻿Build started 20/06/2017 22:09:34.
+     1>Project "D:\DATA KULIAH\Sem 2\PBO\Proyek\Proyek\Proyek.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Proyek.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Tools\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Tools\SFML-2.3.2\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Pong.cpp
+         Pong.cpp
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(34): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(39): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(149): warning C4482: nonstandard extension used: enum 'Direction' used in qualified name
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(153): warning C4482: nonstandard extension used: enum 'Direction' used in qualified name
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(157): warning C4482: nonstandard extension used: enum 'Direction' used in qualified name
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(215): warning C4482: nonstandard extension used: enum 'Direction' used in qualified name
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(220): warning C4482: nonstandard extension used: enum 'Direction' used in qualified name
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(224): warning C4482: nonstandard extension used: enum 'Direction' used in qualified name
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(253): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(287): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(287): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(288): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(288): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(289): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(289): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(294): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(315): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(315): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(326): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(331): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(340): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(345): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(356): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(361): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(371): warning C4482: nonstandard extension used: enum 'Direction' used in qualified name
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(375): warning C4482: nonstandard extension used: enum 'Direction' used in qualified name
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(381): warning C4482: nonstandard extension used: enum 'Direction' used in qualified name
+     1>d:\data kuliah\sem 2\pbo\proyek\proyek\pong.cpp(385): warning C4482: nonstandard extension used: enum 'Direction' used in qualified name
+       Link:
+         D:\Tools\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\DATA KULIAH\Sem 2\PBO\Proyek\Debug\Proyek.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Tools\SFML-2.3.2\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-network-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Proyek.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\DATA KULIAH\Sem 2\PBO\Proyek\Debug\Proyek.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\DATA KULIAH\Sem 2\PBO\Proyek\Debug\Proyek.lib" /MACHINE:X86 Debug\Pong.obj
+     1>Pong.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         Proyek.vcxproj -> D:\DATA KULIAH\Sem 2\PBO\Proyek\Debug\Proyek.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\DATA KULIAH\Sem 2\PBO\Proyek\Debug\Proyek.exe;#1" /manifest Debug\Proyek.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Proyek.unsuccessfulbuild".
+         Touching "Debug\Proyek.lastbuildstate".
+     1>Done Building Project "D:\DATA KULIAH\Sem 2\PBO\Proyek\Proyek\Proyek.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.05
